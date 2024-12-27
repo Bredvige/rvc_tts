@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rvc_tts"
+version = "0.1.0"
+description = "RVC Text-to-Speech package"
+authors = [
+  { name=" Bredvige"}
+]
+license = { text="MIT" }
+dependencies = [
+  "asyncio",
+  "edge_tts",
+  "torchcrepe",
+  "gradio",
+  "librosa",
+  "torch",
+  "fairseq",
+  "faiss_cpu ",
+  "config",
+  "numpy",
+  "pyworld",
+  "praat-parselmouth"
+]
+
+[project.urls]
+homepage = "https://github.com/Bredvige/rvc_tts"
+repository = "https://github.com/Bredvige/rvc_tts"
