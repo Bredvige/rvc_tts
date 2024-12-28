@@ -18,8 +18,8 @@ from rvc_tts.modules.models import (
     SynthesizerTrnMs768NSFsid,
     SynthesizerTrnMs768NSFsid_nono,
 )
-from rmvpe import RMVPE
-from vc_infer_pipeline import VC
+from rvc_tts.rmvpe import RMVPE
+from rvc_tts.vc_infer_pipeline import VC
 
 logging.getLogger("fairseq").setLevel(logging.WARNING)
 logging.getLogger("numba").setLevel(logging.WARNING)
