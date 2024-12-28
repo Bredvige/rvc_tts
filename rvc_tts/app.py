@@ -11,7 +11,7 @@ import librosa
 import torch
 from fairseq import checkpoint_utils
 
-from config import Config
+from rvc_tts.config import Config
 from rvc_tts.modules.models import (
     SynthesizerTrnMs256NSFsid,
     SynthesizerTrnMs256NSFsid_nono,
